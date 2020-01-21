@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <Button
+        android:id="@+id/addItem"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="@string/add"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:textSize="18sp"/>
+
+   <ListView
+       android:id="@+id/note_list"
+       android:layout_width="match_parent"
+       android:layout_height="0dp"
+       android:layout_weight="90"
+       ></ListView>
+
+</LinearLayout>
