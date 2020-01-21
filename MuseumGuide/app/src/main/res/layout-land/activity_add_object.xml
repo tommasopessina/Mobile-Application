@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <ImageView
+            android:id="@+id/photo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:src="@drawable/photoadd"
+            android:padding="10sp"/>
+
+        <TextView
+            android:id="@+id/roomName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="23sp"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_weight="70"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="25"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            android:textSize="20sp"
+            android:text="@string/title"
+            android:gravity="center"/>
+
+        <EditText
+            android:id="@+id/objectName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:hint="@string/titleHint"
+            android:inputType="textCapSentences"/>
+
+        <ImageView
+            android:id="@+id/speechTitle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:src="@drawable/record" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="30"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:text="@string/description"/>
+
+        <EditText
+            android:id="@+id/desc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="65"
+            android:hint="@string/descHint"
+            android:inputType="textCapSentences" />
+
+        <ImageView
+            android:id="@+id/speechDesc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="10"
+            android:src="@drawable/record" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addObject"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:textSize="20sp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="@string/addObject"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "503208206274",
+    "firebase_url": "https://museumguide-f42c4.firebaseio.com",
+    "project_id": "museumguide-f42c4",
+    "storage_bucket": "museumguide-f42c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503208206274:android:1d2c8e50b371b13d",
+        "android_client_info": {
+          "package_name": "com.example.museumguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503208206274-gitlotcnihe6dj1saekugrdtjis9f5q5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.museumguide",
+            "certificate_hash": "f467c086508821310c79ad13b9993e2fa5e9ca87"
+          }
+        },
+        {
+          "client_id": "503208206274-38psubiu29ijqjebt5rs67hu1pq4a1j2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtHmFQtHGR59cHlJ5WZbBvujRmdSLrQ2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503208206274-38psubiu29ijqjebt5rs67hu1pq4a1j2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
