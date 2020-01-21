@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:text="@string/addTitle"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_green_dark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="@string/data"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/data"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:hint="@string/dataHint"
+            android:gravity="center_vertical"
+            android:inputType="datetime"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="@string/time"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:hint="@string/timeHint"
+            android:gravity="center_vertical"
+            android:inputType="datetime"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="@string/location"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:hint="@string/locationHint"
+            android:gravity="center_vertical"
+            android:inputType="textCapSentences"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="@string/dest"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/destination"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:hint="@string/destHint"
+            android:gravity="center_vertical"
+            android:inputType="textCapSentences"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="10"
+        android:weightSum="100">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:text="@string/seats"
+            android:gravity="center"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/seats"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:hint="@string/seatsHint"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:maxLines="1"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <Button
+        android:id="@+id/addTrip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="12"
+        android:text="@string/add"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginStart="3dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="@android:color/holo_orange_light"/>
+
+
+</LinearLayout>

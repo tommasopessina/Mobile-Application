@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "867444567997",
+    "firebase_url": "https://upocarsharing-ee1ed.firebaseio.com",
+    "project_id": "upocarsharing-ee1ed",
+    "storage_bucket": "upocarsharing-ee1ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867444567997:android:23a2cce8ce969b83",
+        "android_client_info": {
+          "package_name": "com.example.upocarsharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867444567997-q7i96rv9rs2u9d7n7os37iepgu403m7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.upocarsharing",
+            "certificate_hash": "f467c086508821310c79ad13b9993e2fa5e9ca87"
+          }
+        },
+        {
+          "client_id": "867444567997-gbeh32q3bnjnmjl7o316a1a7htpfd2e0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8DaXMKwUBhIK7ZUIObqfytvUxDOIvskQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867444567997-gbeh32q3bnjnmjl7o316a1a7htpfd2e0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

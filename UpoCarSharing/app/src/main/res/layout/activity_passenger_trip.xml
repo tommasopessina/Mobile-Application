@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dest"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/datatime"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:gravity="center|top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/seatText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:gravity="right|center"/>
+
+        <TextView
+            android:id="@+id/freeSeat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            android:gravity="left|center"
+            android:textColor="@android:color/holo_green_dark"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:weightSum="100"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/userText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="30"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="70"
+            android:gravity="left|center"
+            android:textColor="@android:color/holo_red_dark"/>
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/passengerList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/passenger"
+        android:backgroundTint="@android:color/holo_green_light"/>
+
+    <Button
+        android:id="@+id/bookTrip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/bookTrip"
+        android:backgroundTint="@android:color/holo_orange_light"/>
+
+    <Button
+        android:id="@+id/deleteTrip"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_weight="9"
+        android:text="@string/deleteTrip"
+        android:backgroundTint="@android:color/holo_red_light"/>
+
+</LinearLayout>
