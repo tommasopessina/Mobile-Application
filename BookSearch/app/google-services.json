@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "531440199696",
+    "firebase_url": "https://booksearch-b3d0c.firebaseio.com",
+    "project_id": "booksearch-b3d0c",
+    "storage_bucket": "booksearch-b3d0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531440199696:android:8ff47f69b72ca00d",
+        "android_client_info": {
+          "package_name": "com.example.booksearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531440199696-72hcaom5lbevg9tbkem280b5k2cif9sr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.booksearch",
+            "certificate_hash": "f467c086508821310c79ad13b9993e2fa5e9ca87"
+          }
+        },
+        {
+          "client_id": "531440199696-17hirmm7l2d2qs7ddcnenbd4ansasib3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAj5Y-BxQ2k9l9aO_V_iwrCEvN8yJhyi7A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531440199696-17hirmm7l2d2qs7ddcnenbd4ansasib3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

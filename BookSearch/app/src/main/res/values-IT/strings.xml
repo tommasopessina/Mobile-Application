@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">BookSearch</string>
+    <string name="name">Inserisci il tuo indirizzo mail:</string>
+    <string name="nameHint">Inserisci qui la tua email</string>
+    <string name="password">Inserire password:</string>
+    <string name="pswdHint">Inserisci la tua password qui</string>
+    <string name="signup">Sign-up</string>
+    <string name="login">Login</string>
+    <string name="error">Devi inserire una mail e una password</string>
+    <string name="failed">Autenticazione fallita</string>
+    <string name="signed">Autenticazione effettuata</string>
+    <string name="errorWeakPassword">La password deve essere lunga almeno 6 caratteri</string>
+    <string name="errorInvalidEmail">Indirizzo mail non valido</string>
+    <string name="errorUserExists">Utente già esistente</string>
+    <string name="errorWrongPassword">Password errata</string>
+    <string name="welcome">Bentornato </string>
+    <string name="signing">Registrazione</string>
+    <string name="wait">Attendere prego...</string>
+    <string name="genericError">Errore</string>
+    <string name="add">Inserisci nuovo libro</string>
+    <string name="user">User:</string>
+    <string name="isbn">Inserire codice isbn qui</string>
+    <string name="exit">Esci</string>
+    <string name="delete">Cancella libro</string>
+    <string name="askPermission">Devi autorizzare i servizi di localizzazione</string>
+    <string name="isbnNotFound">Libro non trovato</string>
+    <string name="descNotFound">Descrizione non trovata</string>
+    <string name="mapBook">Mostra libri sulla mappa</string>
+    <string name="title_activity_map_book">Mappa</string>
+    <string name="connerror">Errore di connessione</string>
+</resources>
